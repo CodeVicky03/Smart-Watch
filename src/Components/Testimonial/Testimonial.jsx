@@ -81,6 +81,12 @@ const Testimonial = () => {
             </div>
           </div>
         </section>
+        <p className="c-r">
+          Our customers consistently praise our commitment to quality and
+          innovation. They value the seamless experience our products provide,
+          enhancing their daily lives. The positive feedback underscores their
+          deep appreciation and trust in our brand.
+        </p>
       </div>
     </div>
   );

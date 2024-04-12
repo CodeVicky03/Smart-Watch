@@ -25,6 +25,13 @@
 .slide-main-div{
   overflow-y: scroll;
 }
+.slide-main-div::-webkit-scrollbar{
+  display: none;
+}
+.c-r{
+  text-align: center;
+  margin-top: 50px;
+}
 .slide-main-div > section {
   display: flex;
   justify-content: space-between;
@@ -116,5 +123,8 @@
   }
   .review{
     width: 280px;
+  }
+  .slide-main-div>section{
+    margin: 20px 0px 0px 0px;
   }
 }
