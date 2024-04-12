@@ -1,0 +1,141 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding-top: 30px;
+  margin: -60px 50px 0px 50px;
+  position: sticky;
+  top: 0;
+  z-index: -2;
+}
+.main > :nth-child(1) {
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.main>:nth-child(2){
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.main > section > h1 {
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+  line-height: 80px;
+}
+@media (max-width : 800px){
+  .main>section>h1{
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+.main > section > h1 > span {
+  position: relative;
+}
+.main > section > h1 > span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 60%;
+  background-color: #111111ef;
+}
+.main > section > p {
+  font-family: "poppins", sans-serif;
+  width: 90%;
+  font-size: 13px;
+  font-weight: 500;
+}
+.main > section > span {
+  font-size: 22px;
+  font-weight: 800;
+  position: relative;
+}
+.main > section > span::after {
+  content: "USD";
+  position: absolute;
+  left: 0;
+  bottom: -16px;
+  font-size: 12px;
+}
+.main > section > div > button {
+  background-color: #111111;
+  color: #f5f5f5;
+  border-radius: 200px;
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.image>img{
+    height: 400px;
+    animation: float 2s ease-in-out infinite;
+}
+@keyframes float {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); } 
+}
+.shadow{
+    height: 20px;
+    width: 200px;
+    background-color: #11111111;
+    border-radius: 50%;
+    filter: blur(1px);
+    animation: string ease-in-out 2s infinite;
+}
+@keyframes string {
+    0%{
+        width: 160px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 160px;
+    }
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: -40px;
+}
+.rate>p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.rate>p>span{
+    color: #111111;
+    font-size: 14px;
+}
+@media (max-width: 720px){
+  .main{
+    flex-direction: column;
+    margin: 20px;
+  }
+  .main>:nth-child(2){
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  .rate{
+    flex-direction: row;
+    gap: 50px;
+  }
+}
