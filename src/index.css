@@ -1,11 +1,11 @@
-body{
+body {
   background-color: #f5f5f5;
   color: #111111;
   font-family: "Urbanist", sans-serif;
   margin: 0px;
   scroll-behavior: smooth;
 }
-.search-div{
+.search-div {
   height: 100vh;
   width: 100%;
   background-color: #1111116e;
@@ -19,7 +19,7 @@ body{
   z-index: 100;
   color: #f5f5f5;
 }
-.search-div>i{
+.search-div > i {
   background-color: white;
   display: flex;
   justify-content: center;
@@ -33,7 +33,7 @@ body{
   left: 67%;
   cursor: pointer;
 }
-.search-div>div{
+.search-div > div {
   background-color: #111111;
   border-radius: 10px;
   padding: 20px;
@@ -42,7 +42,7 @@ body{
   align-items: center;
   margin-top: 150px;
 }
-.search-div>div>input{
+.search-div > div > input {
   padding: 10px;
   margin-left: 10px;
   width: 400px;
@@ -53,7 +53,7 @@ body{
   background-color: transparent;
   border: none;
 }
-.search-div>section{
+.search-div > section {
   background-color: #111111;
   color: #f5f5f5;
   height: auto;
@@ -66,16 +66,16 @@ body{
   flex-direction: column;
   gap: 5px;
 }
-.search-div>section::-webkit-scrollbar{
+.search-div > section::-webkit-scrollbar {
   display: none;
 }
-.search-div>section>p{
+.search-div > section > p {
   padding: 10px;
   margin: 0;
   background-color: #69696909;
   cursor: pointer;
 }
-.search-div>section>a{
+.search-div > section > a {
   text-decoration: none;
   color: #f5f5f5;
   padding: 10px;
@@ -83,22 +83,48 @@ body{
   background-color: #69696909;
   cursor: pointer;
 }
-@media (max-width: 600px){
-  .search-div>section{
+@media (max-width: 600px) {
+  .search-div > section {
     width: 350px;
   }
-  .search-div>div>input{
+  .search-div > div > input {
     width: 300px;
   }
-  .search-div>i{
+  .search-div > i {
     left: 87%;
   }
 }
-@media (max-width : 400px){
-  .search-div>div>input{
+@media (max-width: 400px) {
+  .search-div > div > input {
     width: 230px;
   }
-  .search-div>section{
+  .search-div > section {
     width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main {
+    position: inherit;
+  }
+  .steve {
+    position: inherit;
+    margin-bottom: 20px;
+  }
+  .next-level {
+    position: inherit;
+  }
+  .slide>div{
+    width: 100px;
+    height: 100px;
+  }
+  .founder{
+    position: inherit;
+  }
+  .image>img{
+    height: 300px;
+  }
+  .slide-main-div > section > div{
+    height: 240px;
   }
 }

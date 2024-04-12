@@ -82,14 +82,6 @@ const Testimonial = () => {
           </div>
         </section>
       </div>
-      <div className="btns">
-        <button>
-          <ChevronLeft />
-        </button>
-        <button>
-          <ChevronRight />
-        </button>
-      </div>
     </div>
   );
 };

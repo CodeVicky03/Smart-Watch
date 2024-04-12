@@ -105,6 +105,9 @@
   .review{
     width: 340px;
   }
+  .testimonial > h1{
+    font-size: 35px;
+  }
 }
 @media (max-width: 400px){
   .slide-main-div > section > div{

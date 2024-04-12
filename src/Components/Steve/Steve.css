@@ -106,26 +106,27 @@
   background-color: #111111;
   color: #f5f5f5;
 }
-@media(max-width: 720px){
-  .steve{
+@media (max-width: 720px) {
+  .steve {
     margin: 0px;
     padding: 20px;
   }
-  .steve>div{
+  .steve > div {
     flex-direction: column-reverse;
   }
-  .model{
+  .model {
     width: 80%;
   }
-  .slide{
+  .slide {
     margin-top: 80px;
     margin-left: 0px;
   }
-  .slide>div{
+  .slide > div {
     width: 120px;
     height: 120px;
   }
-  .model>div{
+  .model > div {
     display: none;
   }
 }
+
