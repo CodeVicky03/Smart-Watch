@@ -63,18 +63,6 @@ const Navbar = () => {
             <i>
               <Search />
             </i>
-
-
-
-
-
-
-
-
-
-
-
-            
             <input
               type="text"
               placeholder="Search"
